@@ -2,6 +2,15 @@
 Hip Arthroscopy Image Registration
 This repo is what was used for the JEB1433 project performing 2D/3D image registration on a hip arthroscopy dataset from Johns Hopkins University
 
+There are 4 notebooks labelled as follows:
+1. Setup - downloads required repositories and load dataset
+2. DRR Generation - Check that diffDRR is functioning
+3. Regsitration - there are 2 versions one regular for one seed and another that loops and trials translations and rotations individually
+4. Animation - prepares .gif that was used for the JEB1433 presentation
+
+The final python notebook was the one used in google colabs to complete the iterations on every patient's dataset.
+
+The necessary background data and functions are detailed below:
 ---
 
 ## Dataset
